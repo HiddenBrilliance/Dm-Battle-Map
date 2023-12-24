@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import logo from '/Users/dub/Desktop/DM-Battle-Map/FrontEndScreen/front-end-screen/src/Resources/DnD.webp';
+// import './App.css';
 
 function App() {
   return (
@@ -7,7 +8,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -15,7 +15,6 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
     </div>
