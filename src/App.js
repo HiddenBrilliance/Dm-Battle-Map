@@ -1,22 +1,15 @@
 // import logo from './logo.svg';
 import logo from '/Users/dub/Desktop/DM-Battle-Map/FrontEndScreen/front-end-screen/src/Resources/DnD.webp';
-// import './App.css';
+import GridImage from './Components/Battle-Map'; // Import your separate components
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
+      {/* Include your separate components here */}
+      <GridImage />
+
+      {/* You can pass props to components if needed */}
+      {/* <ComponentA prop1={value1} prop2={value2} /> */}
     </div>
   );
 }
