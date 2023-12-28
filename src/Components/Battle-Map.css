@@ -14,14 +14,15 @@
   align-items: center;
 }
 
+.imgSize {
+
+  width: 50%;
+}
 
 .fullScreenImage {
-  width: 100%;
-  /* Take up 100% of the container's width */
-  height: 100%;
-  /* Take up 100% of the container's height */
-  object-fit: cover;
-  /* Maintain aspect ratio while covering the entire container */
+  width: 50%;
+    height: 50%;
+    object-fit: scale-down;
 }
 
 @media (prefers-reduced-motion: no-preference) {

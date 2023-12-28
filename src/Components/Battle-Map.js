@@ -1,11 +1,12 @@
+import React from 'react';
 import logo from '/Users/dub/Desktop/DM-Battle-Map/FrontEndScreen/front-end-screen/src/Resources/DnD.webp';
 
 
 function GridImage() {
   return (
-    <div className="">
+    <div className="fullScreenImageContainer">
       <header className="App-header">
-        <img src={logo} className="App-logo full-screen-image " alt="logo" />
+        <img src={logo} className="App-logo full-screen-image imgSize" alt="logo" />
         <p>
         </p>
         <a
